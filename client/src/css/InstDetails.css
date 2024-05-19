@@ -1,0 +1,34 @@
+/* Ajoutez ces styles dans votre fichier CSS ou SCSS */
+.medium-image {
+  width: 200px; /* Ajustez la taille selon vos besoins */
+  height: auto; 
+  display: block;
+  margin: 0 auto;/* Pour maintenir les proportions de l'image */
+}
+.inst-details-container {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.image-container {
+  position: relative;
+}
+
+.coordinates {
+  position: absolute;
+  top: 0;
+  right: -100px; /* Ajustez la distance par rapport à l'image */
+  background-color: rgba(0, 0, 0, 0.5); /* Couleur de fond semi-transparente */
+  color: white;
+  padding: 5px;
+}
+
+.blue-button {
+  background-color: #4caf50;
+  
+  color: #fff;
+  padding: 10px;
+  width: 70%;
+  border: none;
+    
+}
